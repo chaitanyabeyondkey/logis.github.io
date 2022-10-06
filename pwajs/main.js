@@ -8,17 +8,6 @@ if('serviceWorker' in navigator){
             .then(reg => console.log('service worker: Registered'))
             .catch(err => console.log(`Service Worker : Error : ${err}`));
 
-
-            window.addEventListener('beforeinstallprompt', event => {
-                event.preventDefault();
-                var button = document.querySelector('button');
-                button.removeAttribute('hidden');
-                button.addEventListener('click', () => {
-                  event.prompt();
-                  button.setAttribute('disabled', true);
-                });
-              });
-
               
     });
 }
