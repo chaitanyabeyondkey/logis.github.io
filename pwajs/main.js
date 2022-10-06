@@ -4,7 +4,7 @@ if('serviceWorker' in navigator){
     // we want to register when window (object) load 
     window.addEventListener('load', ()=>{
         navigator.serviceWorker
-            .register('../sw_cached.js')
+            .register('https://chaitanyabeyondkey.github.io/logis.github.io/sw_cached.js')
             .then(reg => console.log('service worker: Registered'))
             .catch(err => console.log(`Service Worker : Error : ${err}`));
 
