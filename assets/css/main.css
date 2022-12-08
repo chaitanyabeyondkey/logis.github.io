@@ -1962,3 +1962,15 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+
+/*added 8 dec 2022 */
+
+#installInstructions {
+  display: none
+}
+@media (display-mode: browser) {
+  #installInstructions {
+    display: block
+  }
+}
