@@ -1,7 +1,7 @@
 {
     "name" : "Logis",
     "short_name" : "Logis",
-    "start_url" : "index.html",
+    "start_url" : "/index.html",
     "display" : "standalone",
     "background_color" : "#4db6ac",
     "theme_color" : "#00695c",
