@@ -6,7 +6,7 @@
     "background_color" : "#4db6ac",
     "theme_color" : "#00695c",
     "orientation" : "portrait-primary",
-    "prefer_related_applications" : true,
+    "prefer_related_applications" : false,
     "icons" : [
         {
             "src" : "assets/img/icons/icon-72.png",
